@@ -27,7 +27,7 @@ SELECT * FROM mahasiswa ORDER BY id;
 -- 6) update data mahasiswa
 UPDATE mahasiswa
     SET ipk = 3.55,
-    status_cuti = 0,
+    status_cuti = 0
     WHERE id = 3;
 
 --7) menampilkan data setelah edit menggunakan id
